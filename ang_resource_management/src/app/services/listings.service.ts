@@ -8,8 +8,8 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root'
 })
 export class ListingsService {
-  //api_url:string = 'https://spring-resource-management.onrender.com';
-  api_url:string = 'http://localhost:8080';
+  api_url:string = 'https://spring-resource-management.onrender.com';
+  // api_url:string = 'http://localhost:8080';
   constructor(
     private http:HttpClient 
   ) { }
