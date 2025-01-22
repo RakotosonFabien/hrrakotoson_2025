@@ -9,6 +9,11 @@ export const serverRoutes: ServerRoute[] = [
     path: 'listing-modif/:id',
     renderMode: RenderMode.Client
   },
+  
+  {
+    path: 'listings',
+    renderMode: RenderMode.Client
+  },
   {
     path: '**',
     renderMode: RenderMode.Prerender

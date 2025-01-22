@@ -1,7 +1,6 @@
 {
   "routes": {
     "/": {},
-    "/listing-creation": {},
-    "/listings": {}
+    "/listing-creation": {}
   }
 }
