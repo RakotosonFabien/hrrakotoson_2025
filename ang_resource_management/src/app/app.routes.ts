@@ -10,6 +10,6 @@ export const routes: Routes = [
     {path : '', component : AppComponent},
     {path : "listings", component : ListingsPageComponent},
     {path : "listings/:id", component : ListingDetailsPageComponent},
-    // {path : "listing-modif/:id", component : ListingModifComponent},
+    {path : "listing-modif/:id", component : ListingModifComponent},
     {path : "listing-creation", component : ListingCreationComponent},
 ];
