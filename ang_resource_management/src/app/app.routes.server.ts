@@ -7,6 +7,6 @@ export const serverRoutes: ServerRoute[] = [
   },
   {
     path: 'listings/:id',
-    renderMode: RenderMode.Server
+    renderMode: RenderMode.Client
   }
 ];
