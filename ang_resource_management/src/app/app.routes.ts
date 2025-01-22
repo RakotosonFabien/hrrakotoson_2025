@@ -9,7 +9,7 @@ export const routes: Routes = [
     // {path:'', redirectTo : "/listings", pathMatch : "full"},
     {path : '', component : AppComponent},
     {path : "listings", component : ListingsPageComponent},
-    // {path : "listings/:id", component : ListingDetailsPageComponent},
+    {path : "listings/:id", component : ListingDetailsPageComponent},
     // {path : "listing-modif/:id", component : ListingModifComponent},
     {path : "listing-creation", component : ListingCreationComponent},
 ];
