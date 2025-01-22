@@ -6,8 +6,8 @@ import { ListingCreationComponent } from './listing-creation/listing-creation.co
 import { AppComponent } from './app.component';
 
 export const routes: Routes = [
-    {path:'', redirectTo : "/listings", pathMatch : "full"},
-    // {path : '', component : AppComponent},
+    // {path:'', redirectTo : "/listings", pathMatch : "full"},
+    {path : '', component : AppComponent},
     {path : "listings", component : ListingsPageComponent},
     {path : "listings/:id", component : ListingDetailsPageComponent},
     {path : "listing-modif/:id", component : ListingModifComponent},
